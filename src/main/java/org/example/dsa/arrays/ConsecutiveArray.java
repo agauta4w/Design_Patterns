@@ -10,7 +10,7 @@ public class ConsecutiveArray {
 
     }
 
-    public  static boolean isConsecutive(int[] nums) {
+    public static boolean isConsecutive(int[] nums) {
         // Your code goes here
         Arrays.sort(nums);
         int len = nums.length;
